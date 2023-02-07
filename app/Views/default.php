@@ -72,13 +72,10 @@
 
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-    <a href="<?= base_url()?>" class="navbar-brand d-flex align-items-center px-4 px-lg-5 d-none d-sm-block">
-        <img src="<?= base_url('img/refriAireLogo.png')?>" width="280">
+    <a href="<?= base_url()?>" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <img src="<?= base_url('img/refriAireLogo.png')?>" class="mainLogo">
     </a>
 
-    <a href="<?= base_url()?>" class="navbar-brand d-flex align-items-center px-4 px-lg-5 d-block d-sm-none">
-        <img src="<?= base_url('img/refriAireLogo.png')?>" width="160">
-    </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -158,9 +155,10 @@
 <!-- Footer End -->
 
 
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+<a href="https://wa.me/5218126291898" class="float" target="_blank">
+    <img src="<?= base_url('img/whatsapp-logo.png')?>" width="64" />
+</a>
+<div class="float2 visible-xs-block hidden-xs">&iexcl;Hola! &iquest;En qu&eacute; podemos <br />ayudarte?</div>
 
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
